@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF4801315918E4800D1F95F /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF4801215918E4800D1F95F /* balloon.png */; };
+		400D4D2C15102B2F002A59E0 /* 67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 400D4D2B15102B2F002A59E0 /* 67.jpg */; };
+		400D4D2E15102CB6002A59E0 /* 11949847661568287344heart_jon_phillips_01.svg.thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 400D4D2D15102CB6002A59E0 /* 11949847661568287344heart_jon_phillips_01.svg.thumb.png */; };
+		40408F7515919740007CDF55 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40408F7415919740007CDF55 /* Twitter.framework */; };
 		407D171F150F897200EC2251 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D171E150F897200EC2251 /* UIKit.framework */; };
 		407D1721150F897200EC2251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D1720150F897200EC2251 /* Foundation.framework */; };
 		407D1723150F897200EC2251 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407D1722150F897200EC2251 /* CoreGraphics.framework */; };
@@ -33,24 +37,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF4801215918E4800D1F95F /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		400D4D2B15102B2F002A59E0 /* 67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 67.jpg; sourceTree = "<group>"; };
+		400D4D2D15102CB6002A59E0 /* 11949847661568287344heart_jon_phillips_01.svg.thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11949847661568287344heart_jon_phillips_01.svg.thumb.png; sourceTree = "<group>"; };
+		40408F7415919740007CDF55 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		407D171A150F897200EC2251 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407D171E150F897200EC2251 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		407D1720150F897200EC2251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		407D1722150F897200EC2251 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		407D1726150F897200EC2251 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		407D1726150F897200EC2251 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		407D1728150F897200EC2251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		407D172A150F897200EC2251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		407D172C150F897200EC2251 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
-		407D172D150F897200EC2251 /* KTHAppDelegate.h */ = {isa = PBXFileReference; path = KTHAppDelegate.h; sourceTree = "<group>"; };
+		407D172C150F897200EC2251 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		407D172D150F897200EC2251 /* KTHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTHAppDelegate.h; sourceTree = "<group>"; };
 		407D172E150F897200EC2251 /* KTHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHAppDelegate.m; sourceTree = "<group>"; };
 		407D1731150F897200EC2251 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		407D1733150F897200EC2251 /* KTHViewController.h */ = {isa = PBXFileReference; path = KTHViewController.h; sourceTree = "<group>"; };
+		407D1733150F897200EC2251 /* KTHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTHViewController.h; sourceTree = "<group>"; };
 		407D1734150F897200EC2251 /* KTHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHViewController.m; sourceTree = "<group>"; };
 		407D173B150F897200EC2251 /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407D173C150F897200EC2251 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		407D1744150F897200EC2251 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
+		407D1744150F897200EC2251 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		407D1746150F897200EC2251 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		407D1748150F897200EC2251 /* HelloWorldTests.h */ = {isa = PBXFileReference; path = HelloWorldTests.h; sourceTree = "<group>"; };
+		407D1748150F897200EC2251 /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		407D1749150F897200EC2251 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40408F7515919740007CDF55 /* Twitter.framework in Frameworks */,
 				407D171F150F897200EC2251 /* UIKit.framework in Frameworks */,
 				407D1721150F897200EC2251 /* Foundation.framework in Frameworks */,
 				407D1723150F897200EC2251 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400D4D2A15102B23002A59E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				400D4D2D15102CB6002A59E0 /* 11949847661568287344heart_jon_phillips_01.svg.thumb.png */,
+				1FF4801215918E4800D1F95F /* balloon.png */,
+				400D4D2B15102B2F002A59E0 /* 67.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		407D170F150F897200EC2251 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +119,7 @@
 		407D171D150F897200EC2251 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40408F7415919740007CDF55 /* Twitter.framework */,
 				407D171E150F897200EC2251 /* UIKit.framework */,
 				407D1720150F897200EC2251 /* Foundation.framework */,
 				407D1722150F897200EC2251 /* CoreGraphics.framework */,
@@ -111,6 +131,7 @@
 		407D1724150F897200EC2251 /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				400D4D2A15102B23002A59E0 /* images */,
 				407D172D150F897200EC2251 /* KTHAppDelegate.h */,
 				407D172E150F897200EC2251 /* KTHAppDelegate.m */,
 				407D1730150F897200EC2251 /* MainStoryboard.storyboard */,
@@ -205,6 +226,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = 407D170F150F897200EC2251;
 			productRefGroup = 407D171B150F897200EC2251 /* Products */;
@@ -224,6 +246,9 @@
 			files = (
 				407D1729150F897200EC2251 /* InfoPlist.strings in Resources */,
 				407D1732150F897200EC2251 /* MainStoryboard.storyboard in Resources */,
+				400D4D2C15102B2F002A59E0 /* 67.jpg in Resources */,
+				400D4D2E15102CB6002A59E0 /* 11949847661568287344heart_jon_phillips_01.svg.thumb.png in Resources */,
+				1FF4801315918E4800D1F95F /* balloon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +455,7 @@
 				407D174F150F897200EC2251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		407D1750150F897200EC2251 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +464,7 @@
 				407D1752150F897200EC2251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
